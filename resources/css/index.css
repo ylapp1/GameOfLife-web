@@ -1,0 +1,45 @@
+html {
+    background-color: #EEE;
+}
+
+/*********
+ The board
+ **********/
+div#board {
+    width: 50%;
+    display: inline;
+}
+
+/* Board table */
+div#board.table {
+    border: 0;
+}
+
+/* Board cells */
+td.cell {
+    width: 40px;
+    height: 40px;
+}
+td.dead {
+    background: #F00;
+}
+td.alive {
+    background: #000;
+}
+
+
+/*************
+ The sidebar
+ *************/
+div#sidebar {
+    float: right;
+}
+
+
+/*******************
+ The control buttons
+ *******************/
+
+div.controlButtons.button {
+    display: inline-block;
+}
